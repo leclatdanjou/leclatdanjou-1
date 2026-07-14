@@ -1425,53 +1425,7 @@ a[href="#experience"]:hover {
   box-shadow: 0 10px 20px rgba(0, 90, 255, 0.3);
 }
 
-/* Dark mode */
-@media (prefers-color-scheme: dark) {
-  #experience h2 { color: #ffffff; }
-  #experience p { color: #cbd5e1; }
-}
-
-/* Animation AOS */
-[data-aos] {
-  opacity: 0;
-  transform: translateY(20px);
-  transition-property: opacity, transform;
-  transition-duration: 0.8s;
-  transition-timing-function: ease-out;
-}
-[data-aos].aos-animate {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-/* --- RESPONSIVE MOBILE --- */
-@media (max-width: 768px) {
-
-  /* Texte plus lisible */
-  #experience p {
-    font-size: 0.95rem;
-    line-height: 1.55rem;
-  }
-
-  /* Boutons du livre */
-  #experience .buttons {
-    flex-direction: column;
-    gap: 12px;
-  }
-
-  #experience button {
-    width: 100%;
-    padding: 14px;
-    font-size: 1rem;
-  }
-
-  /* Centrage du livre */
-  #experience .book-wrapper {
-    padding-left: 0 !important;
-  }
-}
-</style>
-<!-- Flèche vers la section "services" -->
+-- Flèche vers la section "services" -->
 <section class="bg-white py-6 sm:py-8">
   <div class="flex justify-center">
     <a href="#services"
